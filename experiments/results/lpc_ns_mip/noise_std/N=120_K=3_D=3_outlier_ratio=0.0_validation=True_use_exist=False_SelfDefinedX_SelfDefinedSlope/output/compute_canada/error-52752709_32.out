@@ -1,0 +1,29 @@
+/project/6019546/joeoj520/Predictive-Clustering/Compute_Canada_Experiments/Results/Noise_K=3_High_D/MSE_noise_K=2/./bb_clustering.py:34: SyntaxWarning: invalid escape sequence '\/'
+  out_dir = re.findall("input_parameters_(.+)\/", file_name)[0]
+/project/6019546/joeoj520/Predictive-Clustering/Compute_Canada_Experiments/Results/Noise_K=3_High_D/MSE_noise_K=2/./bb_clustering.py:35: SyntaxWarning: invalid escape sequence '\-'
+  task_num = re.findall("\-(\d+)\.", file_name)[0]
+Fitting the MIQP model...
+Fitting the model took 6906.768190145493 seconds
+Fitting the baseline greedy model...
+Fitting the baseline greedy model 0 took 0.7096312046051025 seconds
+Fitting the baseline greedy model 1 took 0.5736861228942871 seconds
+Fitting the baseline greedy model 2 took 0.5576119422912598 seconds
+Fitting the baseline greedy model 3 took 0.5717434883117676 seconds
+Fitting the baseline greedy model 4 took 0.5521178245544434 seconds
+Fitting the baseline greedy model 5 took 0.5702567100524902 seconds
+Fitting the baseline greedy model 6 took 0.5560436248779297 seconds
+Fitting the baseline greedy model 7 took 0.5577058792114258 seconds
+Fitting the baseline greedy model 8 took 0.5708653926849365 seconds
+Fitting the baseline greedy model 9 took 0.5564801692962646 seconds
+Fitting the baseline greedy model 10 took 0.5721051692962646 seconds
+Fitting the baseline greedy model 11 took 0.5623526573181152 seconds
+Fitting the baseline greedy model 12 took 0.5484771728515625 seconds
+Fitting the baseline greedy model 13 took 0.5427036285400391 seconds
+Fitting the baseline greedy model 14 took 0.5309336185455322 seconds
+Fitting the baseline greedy model 15 took 0.5318698883056641 seconds
+Fitting the baseline greedy model 16 took 0.5410351753234863 seconds
+Fitting the baseline greedy model 17 took 0.5488548278808594 seconds
+Fitting the baseline greedy model 18 took 0.553480863571167 seconds
+Fitting the baseline greedy model 19 took 0.5556025505065918 seconds
+Refitting the model...
+Refitting the model took 3.041404962539673 seconds

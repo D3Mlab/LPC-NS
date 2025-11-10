@@ -1,0 +1,29 @@
+/project/6019546/joeoj520/Predictive-Clustering/Compute_Canada_Experiments/Results/Noise_K=3_High_D/MSE_noise_K=2/./bb_clustering.py:34: SyntaxWarning: invalid escape sequence '\/'
+  out_dir = re.findall("input_parameters_(.+)\/", file_name)[0]
+/project/6019546/joeoj520/Predictive-Clustering/Compute_Canada_Experiments/Results/Noise_K=3_High_D/MSE_noise_K=2/./bb_clustering.py:35: SyntaxWarning: invalid escape sequence '\-'
+  task_num = re.findall("\-(\d+)\.", file_name)[0]
+Fitting the MIQP model...
+Fitting the model took 6751.401581048965 seconds
+Fitting the baseline greedy model...
+Fitting the baseline greedy model 0 took 0.5390684604644775 seconds
+Fitting the baseline greedy model 1 took 0.47104620933532715 seconds
+Fitting the baseline greedy model 2 took 0.482708215713501 seconds
+Fitting the baseline greedy model 3 took 0.48169398307800293 seconds
+Fitting the baseline greedy model 4 took 0.4693310260772705 seconds
+Fitting the baseline greedy model 5 took 0.4685673713684082 seconds
+Fitting the baseline greedy model 6 took 0.4667637348175049 seconds
+Fitting the baseline greedy model 7 took 0.46550631523132324 seconds
+Fitting the baseline greedy model 8 took 0.4666919708251953 seconds
+Fitting the baseline greedy model 9 took 0.4669952392578125 seconds
+Fitting the baseline greedy model 10 took 0.46662378311157227 seconds
+Fitting the baseline greedy model 11 took 0.4807581901550293 seconds
+Fitting the baseline greedy model 12 took 0.4809548854827881 seconds
+Fitting the baseline greedy model 13 took 0.4717440605163574 seconds
+Fitting the baseline greedy model 14 took 0.46787261962890625 seconds
+Fitting the baseline greedy model 15 took 0.4670250415802002 seconds
+Fitting the baseline greedy model 16 took 0.4667172431945801 seconds
+Fitting the baseline greedy model 17 took 0.4666776657104492 seconds
+Fitting the baseline greedy model 18 took 0.4670298099517822 seconds
+Fitting the baseline greedy model 19 took 0.4666121006011963 seconds
+Refitting the model...
+Refitting the model took 2.7223150730133057 seconds

@@ -1,0 +1,8 @@
+==================== Evaluating with noise_std = 0.9 in Dataset 1 with random state = 4 ====================
+ODS is enabled
+mse 0.7525051982657541
+Splitting data into training and validation set
+Not whitening the data...
+Set parameter TokenServer to value "license1.computecanada.ca"
+Set parameter Threads to value 16
+Read parameters from file gurobi.env

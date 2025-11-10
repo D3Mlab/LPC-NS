@@ -1,0 +1,29 @@
+/project/6019546/joeoj520/Predictive-Clustering/Compute_Canada_Experiments/Results/Noise_K=3_High_D/QPBO_noise_K=2/./bb_clustering.py:34: SyntaxWarning: invalid escape sequence '\/'
+  out_dir = re.findall("input_parameters_(.+)\/", file_name)[0]
+/project/6019546/joeoj520/Predictive-Clustering/Compute_Canada_Experiments/Results/Noise_K=3_High_D/QPBO_noise_K=2/./bb_clustering.py:35: SyntaxWarning: invalid escape sequence '\-'
+  task_num = re.findall("\-(\d+)\.", file_name)[0]
+Fitting the MIQP model...
+Fitting the model took 18126.45106267929 seconds
+Fitting the baseline greedy model...
+Fitting the baseline greedy model 0 took 1.7403011322021484 seconds
+Fitting the baseline greedy model 1 took 0.621164083480835 seconds
+Fitting the baseline greedy model 2 took 0.6359090805053711 seconds
+Fitting the baseline greedy model 3 took 0.6247014999389648 seconds
+Fitting the baseline greedy model 4 took 0.6329450607299805 seconds
+Fitting the baseline greedy model 5 took 0.6307344436645508 seconds
+Fitting the baseline greedy model 6 took 0.625499963760376 seconds
+Fitting the baseline greedy model 7 took 0.6293380260467529 seconds
+Fitting the baseline greedy model 8 took 0.6214017868041992 seconds
+Fitting the baseline greedy model 9 took 0.6517510414123535 seconds
+Fitting the baseline greedy model 10 took 0.6655118465423584 seconds
+Fitting the baseline greedy model 11 took 0.6608633995056152 seconds
+Fitting the baseline greedy model 12 took 0.671863317489624 seconds
+Fitting the baseline greedy model 13 took 0.6706583499908447 seconds
+Fitting the baseline greedy model 14 took 0.6653735637664795 seconds
+Fitting the baseline greedy model 15 took 0.669602632522583 seconds
+Fitting the baseline greedy model 16 took 0.6634588241577148 seconds
+Fitting the baseline greedy model 17 took 0.6693766117095947 seconds
+Fitting the baseline greedy model 18 took 0.6666483879089355 seconds
+Fitting the baseline greedy model 19 took 0.6323709487915039 seconds
+Refitting the model...
+Refitting the model took 12.190906524658203 seconds

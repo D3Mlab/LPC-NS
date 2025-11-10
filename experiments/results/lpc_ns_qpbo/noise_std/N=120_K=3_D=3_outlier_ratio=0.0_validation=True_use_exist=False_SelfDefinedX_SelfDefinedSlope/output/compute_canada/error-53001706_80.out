@@ -1,0 +1,29 @@
+/project/6019546/joeoj520/Predictive-Clustering/Compute_Canada_Experiments/Results/Noise_K=3_High_D/QPBO_noise_K=2/./bb_clustering.py:34: SyntaxWarning: invalid escape sequence '\/'
+  out_dir = re.findall("input_parameters_(.+)\/", file_name)[0]
+/project/6019546/joeoj520/Predictive-Clustering/Compute_Canada_Experiments/Results/Noise_K=3_High_D/QPBO_noise_K=2/./bb_clustering.py:35: SyntaxWarning: invalid escape sequence '\-'
+  task_num = re.findall("\-(\d+)\.", file_name)[0]
+Fitting the MIQP model...
+Fitting the model took 18138.20676922798 seconds
+Fitting the baseline greedy model...
+Fitting the baseline greedy model 0 took 1.0909919738769531 seconds
+Fitting the baseline greedy model 1 took 0.4628732204437256 seconds
+Fitting the baseline greedy model 2 took 0.46201419830322266 seconds
+Fitting the baseline greedy model 3 took 0.46481895446777344 seconds
+Fitting the baseline greedy model 4 took 0.46178340911865234 seconds
+Fitting the baseline greedy model 5 took 0.46096348762512207 seconds
+Fitting the baseline greedy model 6 took 0.46211695671081543 seconds
+Fitting the baseline greedy model 7 took 0.46079254150390625 seconds
+Fitting the baseline greedy model 8 took 0.461651086807251 seconds
+Fitting the baseline greedy model 9 took 0.462435245513916 seconds
+Fitting the baseline greedy model 10 took 0.46465015411376953 seconds
+Fitting the baseline greedy model 11 took 0.4648904800415039 seconds
+Fitting the baseline greedy model 12 took 0.4649174213409424 seconds
+Fitting the baseline greedy model 13 took 0.465378999710083 seconds
+Fitting the baseline greedy model 14 took 0.46596240997314453 seconds
+Fitting the baseline greedy model 15 took 0.465512752532959 seconds
+Fitting the baseline greedy model 16 took 0.4655146598815918 seconds
+Fitting the baseline greedy model 17 took 0.4714052677154541 seconds
+Fitting the baseline greedy model 18 took 0.46584129333496094 seconds
+Fitting the baseline greedy model 19 took 0.46567702293395996 seconds
+Refitting the model...
+Refitting the model took 9.467316150665283 seconds

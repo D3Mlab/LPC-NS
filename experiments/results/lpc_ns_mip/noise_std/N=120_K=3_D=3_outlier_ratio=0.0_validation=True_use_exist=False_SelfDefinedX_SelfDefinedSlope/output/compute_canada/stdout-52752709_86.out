@@ -1,0 +1,136 @@
+==================== Evaluating with noise_std = 1.7 in Dataset 1 with random state = 8 ====================
+ODS is enabled
+mse 3.6315229684916988
+Splitting data into training and validation set
+Not whitening the data...
+Set parameter TokenServer to value "license1.computecanada.ca"
+Set parameter Threads to value 16
+Read parameters from file gurobi.env
+Set parameter MIPGap to value 0.05
+Set parameter TimeLimit to value 36000
+using MSE:
+Gurobi Optimizer version 11.0.1 build v11.0.1rc0 (linux64 - "AlmaLinux 9.3 (Shamrock Pampas Cat)")
+
+CPU model: Intel(R) Xeon(R) Platinum 8260 CPU @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 48 physical cores, 48 logical processors, using up to 16 threads
+
+Optimize a model with 72 rows, 288 columns and 216 nonzeros
+Model fingerprint: 0xd2a97600
+Model has 72 quadratic objective terms
+Model has 216 general constraints
+Variable types: 72 continuous, 216 integer (216 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+  GenCon rhs range [2e-01, 2e+01]
+  GenCon coe range [3e-04, 1e+01]
+Presolve added 216 rows and 216 columns
+Presolve time: 0.03s
+Presolved: 288 rows, 504 columns, 16200 nonzeros
+Presolved model has 216 SOS constraint(s)
+Presolved model has 72 quadratic objective terms
+Variable types: 288 continuous, 216 integer (216 binary)
+Found heuristic solution: objective 8160.2952367
+Found heuristic solution: objective 7056.7264887
+
+Root relaxation: objective 0.000000e+00, 669 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0   81 7056.72649    0.00000   100%     -    0s
+H    0     0                    5675.1248440    0.00000   100%     -    0s
+H    0     0                    4179.9699229    0.00000   100%     -    0s
+     0     0    0.00000    0   79 4179.96992    0.00000   100%     -    0s
+H    0     0                    2934.9008499    0.00000   100%     -    0s
+     0     2    0.00000    0   79 2934.90085    0.00000   100%     -    0s
+H   45    48                    2695.8173793    0.00000   100%  26.0    0s
+H  191   219                    2390.8899994    0.00000   100%  42.2    0s
+H  204   219                    2338.0280663    0.00000   100%  41.5    0s
+H  216   219                    2289.9544891    0.00000   100%  43.0    0s
+H 1087  1102                    2173.8309674    0.00000   100%  26.1    0s
+H 1094  1102                    2111.3068260    0.00000   100%  26.0    0s
+H 2129  2134                    2035.9180209    0.00000   100%  20.9    1s
+H 2131  2112                    1847.8462931    0.00000   100%  20.9    1s
+H 2137  2103                    1770.9823151    0.00000   100%  20.9    1s
+H 2149  2078                    1605.7874492    0.00000   100%  20.8    2s
+H 3474  2857                    1600.0407220    0.00000   100%  21.4    4s
+  4193  3324  324.00997   41   78 1600.04072    0.00000   100%  23.8    6s
+H 4200  3187                    1305.8810962    0.00000   100%  23.8    6s
+H 5349  3480                    1026.0817594    0.00000   100%  22.8    6s
+H 8245  3964                    1015.1751272    3.04641   100%  23.9    6s
+H12624  6000                    1004.1802296   27.44402  97.3%  24.7    7s
+H13553  5922                     894.4117248   27.76691  96.9%  24.5    7s
+H13940  5614                     831.4466176   27.76691  96.7%  24.4    7s
+H14077  5602                     828.8931729   27.76691  96.7%  24.4    7s
+H18366  7278                     783.4546429   46.20478  94.1%  24.9    7s
+H19491  7782                     763.8609719   49.61312  93.5%  24.7    7s
+*20210  5593             120     572.6144127   49.90656  91.3%  24.5    7s
+H21331  4798                     469.0258794   49.90656  89.4%  24.4    8s
+*37225  7318             112     328.2992167   59.20626  82.0%  20.8    9s
+ 42565  8542   88.67218   34   65  328.29922   63.25488  80.7%  20.2   10s
+H80581 17764                     306.0180346   83.95963  72.6%  16.8   12s
+ 107960 24008  202.28950   41   76  306.01803   97.30340  68.2%  15.7   15s
+*135997 28290             115     283.9103795  107.51819  62.1%  14.7   16s
+H137433 28238                     283.7003389  107.67853  62.0%  14.7   17s
+ 178670 37042  201.38798   73   53  283.70034  121.68909  57.1%  13.5   20s
+ 253740 52680  257.56853   68   51  283.70034  138.09941  51.3%  12.1   25s
+ 331845 68257  268.34252   77   41  283.70034  150.35708  47.0%  11.2   30s
+H335081 67535                     279.4455504  150.68471  46.1%  11.1   32s
+H335082 65884                     273.4830506  150.68471  44.9%  11.1   32s
+H335103 62981                     264.3082897  150.68471  43.0%  11.1   32s
+H335109 61535                     260.5051767  150.68471  42.2%  11.1   32s
+ 335111 61521     cutoff   69       260.50518  150.71233  42.1%  11.1   35s
+H335148 61281                     259.9202620  150.71233  42.0%  11.1   35s
+H335193 61145                     259.5718219  150.71233  41.9%  11.1   35s
+ 401094 70775     cutoff   66       259.57182  159.76393  38.5%  10.6   40s
+ 474299 80185     cutoff   69       259.57182  168.11718  35.2%  10.1   45s
+ 554160 89354     cutoff   75       259.57182  175.79121  32.3%   9.7   50s
+ 631887 96027  225.90082   62   55  259.57182  182.31633  29.8%   9.4   55s
+ 706860 100730     cutoff   66       259.57182  187.85032  27.6%   9.1   60s
+*757467 102202             109     257.6593134  191.11212  25.8%   8.9   63s
+ 781684 103107     cutoff   69       257.65931  192.65746  25.2%   8.9   65s
+ 834559 104762  214.14004   90   33  257.65931  195.81128  24.0%   8.8   70s
+*886767 104921             107     257.1427249  198.88367  22.7%   8.6   73s
+ 906131 105151     cutoff   70       257.14272  199.96036  22.2%   8.6   75s
+H929123 100002                     251.6797760  201.25468  20.0%   8.6   78s
+ 946606 99010  210.39488   47   62  251.67978  202.33729  19.6%   8.5   80s
+ 1021462 92647  244.51343   87   30  251.67978  207.02019  17.7%   8.4   85s
+ 1094223 83672  243.67548   65   48  251.67978  211.84193  15.8%   8.3   90s
+ 1134180 75897     cutoff   82       251.67978  214.79408  14.7%   8.2   95s
+ 1207788 57273     cutoff   57       251.67978  221.78214  11.9%   8.1  100s
+ 1263221 36411  248.57377   75   45  251.67978  229.94272  8.64%   8.0  105s
+
+Explored 1302868 nodes (10290456 simplex iterations) in 108.28 seconds (114.03 work units)
+Thread count was 16 (of 48 available processors)
+
+Solution count 10: 251.68 257.143 257.659 ... 283.7
+
+Optimal solution found (tolerance 5.00e-02)
+Best objective 2.516797760288e+02, best bound 2.400289145393e+02, gap 4.6292%
+
+Gurobi MIQP converged to an optimal solution.
+Cluster Assignments from Gurobi MIQP using MSE
+############################################################################
+
+Ridge Regression using scikit-learn:
+Optimal weights w* in X Space (including bias):
+[ 6.41608292e-01 -2.29998522e-05 -7.24654545e-05  2.48931671e-04]
+
+Mean Squared Error on training data (scikit-learn) with lambda = 0.1:
+111.25109127042109
+Cluster assignments:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 2 1 1 1 1
+ 1 1 1 1 1 1 1 1 2 1 2 2 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 1 2 2 2 2 1 2]
+-----------------------------------
+Regression weights for cluster 0: y = -1.7385x_0 + -1.6215x_1 + -0.3101x_2 + -10.0819
+Regression weights for cluster 0 after refit: y = -1.7351x_1 + -1.618x_2 + -0.3046x_3 + -10.0976
+-----------------------------------
+Regression weights for cluster 1: y = 2.1321x_0 + 1.0958x_1 + 0.8441x_2 + 1.2363
+Regression weights for cluster 1 after refit: y = 2.1324x_1 + 1.0959x_2 + 0.844x_3 + 1.2366
+-----------------------------------
+Regression weights for cluster 2: y = -0.8961x_0 + 1.3397x_1 + 0.4781x_2 + 9.5594
+Regression weights for cluster 2 after refit: y = -0.9016x_1 + 1.3337x_2 + 0.4751x_3 + 9.5766
+{'time_milp': 108.79020595550537, 'time_greedy': np.float64(0.4835029363632202), 'time_refit_milp_assignment': 111.54055213928223, 'mse_refit_ground_truth_assignment': np.float64(2.8667071585357786), 'r2_refit_ground_truth_assignment': 0.9742575638794384, 'weight_mismatch_refit_ground_truth_assignment': np.float64(2.856465263003106), 'refit-weight_mismatch_refit_ground_truth_assignment': np.float64(0.0), 'rand_score_refit_ground_truth_assignment': 1.0, 'label_mismatch_refit_ground_truth_assignment': np.float64(0.0), 'mse_milp': np.float64(2.835970989198425), 'r2_milp': 0.9745335683096089, 'weight_mismatch_milp': np.float64(3.300753500346138), 'refit-weight_mismatch_milp': np.float64(0.9991073182213561), 'rand_score_milp': np.float64(0.9014084507042254), 'label_mismatch_milp': np.float64(0.08333333333333333), 'mse_refit_milp_assignment': np.float64(2.8359284780624625), 'r2_refit_milp_assignment': 0.9745339500507989, 'weight_mismatch_refit_milp_assignment': np.float64(3.2997622298573557), 'refit-weight_mismatch_refit_milp_assignment': np.float64(0.9751113449110782), 'rand_score_refit_milp_assignment': np.float64(0.9014084507042254), 'label_mismatch_refit_milp_assignment': np.float64(0.08333333333333333), 'mse_greedy': np.float64(4.781917800938636), 'r2_greedy': np.float64(0.9570593692634745), 'weight_mismatch_greedy': np.float64(11.578973691253855), 'refit-weight_mismatch_greedy': np.float64(10.326507940322978), 'rand_score_greedy': np.float64(0.8014280125195616), 'label_mismatch_greedy': np.float64(0.22638888888888883), 'mse_greedy_sem': np.float64(0.7109551751751546), 'r2_greedy_sem': np.float64(0.006384230118180972), 'weight_mismatch_greedy_sem': np.float64(2.2473940637429135), 'refit-weight_mismatch_greedy_sem': np.float64(2.3788806128963134), 'rand_score_greedy_sem': np.float64(0.019337409726876004), 'label_mismatch_greedy_sem': np.float64(0.02896056391902827), 'mse_ground_truth': np.float64(3.6315229684916988), 'r2_ground_truth': np.float64(0.9684296342134787), 'weight_mismatch_ground_truth': 0, 'rand_score_ground_truth': 1, 'label_mismatch_ground_truth': 0, 'mse_baseline_sklearn': np.float64(111.25109127042109), 'r2_baseline_sklearn': np.float64(0.0009882586561926754), 'mse_milp_val': np.float64(4.741300731614747), 'r2_milp_val': 0.9606417488464402, 'label_mismatch_milp_val': np.float64(0.125), 'mse_refit_milp_assignment_val': np.float64(4.750530976801765), 'r2_refit_milp_assignment_val': 0.9605651271915728, 'label_mismatch_refit_milp_assignment_val': np.float64(0.125), 'mse_greedy_val': np.float64(10.771393050766866), 'label_mismatch_greedy_val': np.float64(0.26458333333333334), 'mse_greedy_val_sem': np.float64(2.672097775153084), 'label_mismatch_greedy_val_sem': np.float64(0.02361379843668077), 'r2_greedy_val': np.float64(0.9105850447032477), 'r2_greedy_val_sem': np.float64(0.022181485903242038), 'mse_refit_ground_truth_assignment_val': np.float64(4.921006127211855), 'r2_refit_ground_truth_assignment_val': 0.9591499873037902, 'label_mismatch_refit_ground_truth_assignment_val': np.float64(0.125), 'mse_ground_truth_val': np.float64(3.1451828862726203), 'r2_ground_truth_val': 0.9738913633686263, 'label_mismatch_ground_truth_val': np.float64(0.125), 'mse_baseline_sklearn_val': np.float64(120.5768349928167), 'r2_baseline_sklearn_val': -0.0009264595482398885}

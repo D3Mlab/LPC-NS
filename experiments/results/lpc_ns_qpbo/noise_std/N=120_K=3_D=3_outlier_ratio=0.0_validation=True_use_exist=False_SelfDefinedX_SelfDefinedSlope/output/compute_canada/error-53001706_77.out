@@ -1,0 +1,29 @@
+/project/6019546/joeoj520/Predictive-Clustering/Compute_Canada_Experiments/Results/Noise_K=3_High_D/QPBO_noise_K=2/./bb_clustering.py:34: SyntaxWarning: invalid escape sequence '\/'
+  out_dir = re.findall("input_parameters_(.+)\/", file_name)[0]
+/project/6019546/joeoj520/Predictive-Clustering/Compute_Canada_Experiments/Results/Noise_K=3_High_D/QPBO_noise_K=2/./bb_clustering.py:35: SyntaxWarning: invalid escape sequence '\-'
+  task_num = re.findall("\-(\d+)\.", file_name)[0]
+Fitting the MIQP model...
+Fitting the model took 18222.623505830765 seconds
+Fitting the baseline greedy model...
+Fitting the baseline greedy model 0 took 1.884495735168457 seconds
+Fitting the baseline greedy model 1 took 0.5729491710662842 seconds
+Fitting the baseline greedy model 2 took 0.5676307678222656 seconds
+Fitting the baseline greedy model 3 took 0.5605404376983643 seconds
+Fitting the baseline greedy model 4 took 0.5772707462310791 seconds
+Fitting the baseline greedy model 5 took 0.5575485229492188 seconds
+Fitting the baseline greedy model 6 took 0.5567097663879395 seconds
+Fitting the baseline greedy model 7 took 0.556856632232666 seconds
+Fitting the baseline greedy model 8 took 0.5551025867462158 seconds
+Fitting the baseline greedy model 9 took 0.5523777008056641 seconds
+Fitting the baseline greedy model 10 took 0.5533442497253418 seconds
+Fitting the baseline greedy model 11 took 0.5571930408477783 seconds
+Fitting the baseline greedy model 12 took 0.5546493530273438 seconds
+Fitting the baseline greedy model 13 took 0.5574486255645752 seconds
+Fitting the baseline greedy model 14 took 0.5567588806152344 seconds
+Fitting the baseline greedy model 15 took 0.5528173446655273 seconds
+Fitting the baseline greedy model 16 took 0.5573501586914062 seconds
+Fitting the baseline greedy model 17 took 0.5592639446258545 seconds
+Fitting the baseline greedy model 18 took 0.5572967529296875 seconds
+Fitting the baseline greedy model 19 took 0.5559589862823486 seconds
+Refitting the model...
+Refitting the model took 10.901965618133545 seconds

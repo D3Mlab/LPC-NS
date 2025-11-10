@@ -1,0 +1,29 @@
+/project/6019546/joeoj520/Predictive-Clustering/Compute_Canada_Experiments/Results/Noise_K=3_High_D/MSE_Optimal_noise_K=2/./bb_clustering.py:35: SyntaxWarning: invalid escape sequence '\/'
+  out_dir = re.findall("input_parameters_(.+)\/", file_name)[0]
+/project/6019546/joeoj520/Predictive-Clustering/Compute_Canada_Experiments/Results/Noise_K=3_High_D/MSE_Optimal_noise_K=2/./bb_clustering.py:36: SyntaxWarning: invalid escape sequence '\-'
+  task_num = re.findall("\-(\d+)\.", file_name)[0]
+Fitting the MIQP model...
+Fitting the model took 22084.911849975586 seconds
+Fitting the baseline greedy model...
+Fitting the baseline greedy model 0 took 0.9011368751525879 seconds
+Fitting the baseline greedy model 1 took 0.5630578994750977 seconds
+Fitting the baseline greedy model 2 took 0.5618605613708496 seconds
+Fitting the baseline greedy model 3 took 0.5599498748779297 seconds
+Fitting the baseline greedy model 4 took 0.5575902462005615 seconds
+Fitting the baseline greedy model 5 took 0.5586972236633301 seconds
+Fitting the baseline greedy model 6 took 0.5578880310058594 seconds
+Fitting the baseline greedy model 7 took 0.5555160045623779 seconds
+Fitting the baseline greedy model 8 took 0.5564587116241455 seconds
+Fitting the baseline greedy model 9 took 0.5604395866394043 seconds
+Fitting the baseline greedy model 10 took 0.5545880794525146 seconds
+Fitting the baseline greedy model 11 took 0.5558261871337891 seconds
+Fitting the baseline greedy model 12 took 0.5573830604553223 seconds
+Fitting the baseline greedy model 13 took 0.5570023059844971 seconds
+Fitting the baseline greedy model 14 took 0.5566813945770264 seconds
+Fitting the baseline greedy model 15 took 0.5556166172027588 seconds
+Fitting the baseline greedy model 16 took 0.5557940006256104 seconds
+Fitting the baseline greedy model 17 took 0.5555136203765869 seconds
+Fitting the baseline greedy model 18 took 0.5549383163452148 seconds
+Fitting the baseline greedy model 19 took 0.5545227527618408 seconds
+Refitting the model...
+Refitting the model took 3.246394634246826 seconds

@@ -1,0 +1,29 @@
+/project/6019546/joeoj520/Predictive-Clustering/Compute_Canada_Experiments/Results/Noise_K=3_High_D/MSE_noise_K=2/./bb_clustering.py:34: SyntaxWarning: invalid escape sequence '\/'
+  out_dir = re.findall("input_parameters_(.+)\/", file_name)[0]
+/project/6019546/joeoj520/Predictive-Clustering/Compute_Canada_Experiments/Results/Noise_K=3_High_D/MSE_noise_K=2/./bb_clustering.py:35: SyntaxWarning: invalid escape sequence '\-'
+  task_num = re.findall("\-(\d+)\.", file_name)[0]
+Fitting the MIQP model...
+Fitting the model took 97.5609302520752 seconds
+Fitting the baseline greedy model...
+Fitting the baseline greedy model 0 took 0.4959578514099121 seconds
+Fitting the baseline greedy model 1 took 0.4759550094604492 seconds
+Fitting the baseline greedy model 2 took 0.4765641689300537 seconds
+Fitting the baseline greedy model 3 took 0.4768679141998291 seconds
+Fitting the baseline greedy model 4 took 0.476654052734375 seconds
+Fitting the baseline greedy model 5 took 0.47739529609680176 seconds
+Fitting the baseline greedy model 6 took 0.4758596420288086 seconds
+Fitting the baseline greedy model 7 took 0.4775691032409668 seconds
+Fitting the baseline greedy model 8 took 0.4803199768066406 seconds
+Fitting the baseline greedy model 9 took 0.4740891456604004 seconds
+Fitting the baseline greedy model 10 took 0.47463321685791016 seconds
+Fitting the baseline greedy model 11 took 0.47370338439941406 seconds
+Fitting the baseline greedy model 12 took 0.4758114814758301 seconds
+Fitting the baseline greedy model 13 took 0.4749796390533447 seconds
+Fitting the baseline greedy model 14 took 0.4766814708709717 seconds
+Fitting the baseline greedy model 15 took 0.4750797748565674 seconds
+Fitting the baseline greedy model 16 took 0.47468066215515137 seconds
+Fitting the baseline greedy model 17 took 0.47473621368408203 seconds
+Fitting the baseline greedy model 18 took 0.47488880157470703 seconds
+Fitting the baseline greedy model 19 took 0.47550272941589355 seconds
+Refitting the model...
+Refitting the model took 2.6896841526031494 seconds

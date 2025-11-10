@@ -1,0 +1,3 @@
+x.npy
+random_state: 4
+parameter_value: 2.3

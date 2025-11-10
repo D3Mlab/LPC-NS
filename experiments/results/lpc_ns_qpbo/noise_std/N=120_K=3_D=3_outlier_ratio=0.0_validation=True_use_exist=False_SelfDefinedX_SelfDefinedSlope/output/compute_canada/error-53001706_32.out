@@ -1,0 +1,20 @@
+/project/6019546/joeoj520/Predictive-Clustering/Compute_Canada_Experiments/Results/Noise_K=3_High_D/QPBO_noise_K=2/./bb_clustering.py:34: SyntaxWarning: invalid escape sequence '\/'
+  out_dir = re.findall("input_parameters_(.+)\/", file_name)[0]
+/project/6019546/joeoj520/Predictive-Clustering/Compute_Canada_Experiments/Results/Noise_K=3_High_D/QPBO_noise_K=2/./bb_clustering.py:35: SyntaxWarning: invalid escape sequence '\-'
+  task_num = re.findall("\-(\d+)\.", file_name)[0]
+Fitting the MIQP model...
+Traceback (most recent call last):
+  File "/project/6019546/joeoj520/Predictive-Clustering/Compute_Canada_Experiments/Results/Noise_K=3_High_D/QPBO_noise_K=2/./bb_clustering.py", line 103, in <module>
+    evaluation_results, regression_weights, cluster_assignments, data = Evaluation.evaluate_model_single(synthetic,
+                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joeoj520/projects/def-ssanner/joeoj520/Predictive-Clustering/Evaluation/evaluation.py", line 991, in evaluate_model_single
+    evaluation.fit(refit = True, use_greedy=True, whiten=whiten, error=loss, **model_args)
+  File "/home/joeoj520/projects/def-ssanner/joeoj520/Predictive-Clustering/Evaluation/evaluation.py", line 220, in fit
+    self.model.perform_gurobi_miqp()
+  File "/home/joeoj520/projects/def-ssanner/joeoj520/Predictive-Clustering/scripts/model.py", line 166, in perform_gurobi_miqp
+    model = gp.Model("ClusterWiseRegression")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/gurobipy/model.pxi", line 80, in gurobipy.Model.__init__
+  File "src/gurobipy/gurobi.pxi", line 60, in gurobipy.gurobi._getdefaultenv
+  File "src/gurobipy/env.pxi", line 70, in gurobipy.Env.__init__
+gurobipy.GurobiError: Failed to connect to token server 'license1.computecanada.ca' (port 41954) - license file '/cvmfs/restricted.computecanada.ca/config/licenses/gurobi/clust'.  Consult https://www.gurobi.com/getting-started for instructions on starting a token server.
